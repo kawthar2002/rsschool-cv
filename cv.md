@@ -1,4 +1,4 @@
-# [rsschoo](https://kawthar2002.github.io/Portfolio.project/)
+# [rsschool](https://kawthar2002.github.io/Portfolio.project/)
 
 1. Ardinartseva Anna
 2. Contacts:
