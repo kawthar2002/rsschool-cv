@@ -3,8 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="assets/ico/unnamed.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__photo">
+          <img
+            class="header__photo-img"
+            src="./assets/img/unnamed.jpg"
+            alt="foto"
+          />
+        </div>
+        <div class="header__info">
+          <h1 class="name">Ardinartseva Anna</h1>
+          <span class="position">HTML/Front-end developer</span>
+          <h3 class="title">Profile</h3>
+          <p class="header__text">
+            I mainly with HTML + SCSS but also used JavaScript for creating
+            layouts. I laso have some experince in using React. Now I'm
+            interested in developing my skills in React and related frontend
+            technologies.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main__skills">
+          <section class="education">
+            <h3 class="title">Education</h3>
+            <ul class="education__list">
+              <li class="education__list-item">
+                <h5 class="education__list-title">University</h5>
+                <p class="education__list-text">2003-2008</p>
+              </li>
+              <li class="education__list-item">
+                <h5 class="education__list-title">Courses</h5>
+                <p class="education__list-text">2021-2023</p>
+              </li>
+            </ul>
+          </section>
+          <section class="expertise">
+            <h3 class="title">EXPERTISE</h3>
+            <ul class="expertise__list">
+              <li class="expertise__list-item">
+                <h5 class="expertise__list-title">Figma</h5>
+                <div class="expertise__list-index">
+                  <div class="expertise__list-level" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="expertise__list-item">
+                <h5 class="expertise__list-title">HTML</h5>
+                <div class="expertise__list-index">
+                  <div class="expertise__list-level" style="width: 97%"></div>
+                </div>
+              </li>
+              <li class="expertise__list-item">
+                <h5 class="expertise__list-title">SCSS</h5>
+                <div class="expertise__list-index">
+                  <div class="expertise__list-level" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="expertise__list-item">
+                <h5 class="expertise__list-title">JS</h5>
+                <div class="expertise__list-index">
+                  <div class="expertise__list-level" style="width: 60%"></div>
+                </div>
+              </li>
+              <li class="expertise__list-item">
+                <h5 class="expertise__list-title">React</h5>
+                <div class="expertise__list-index">
+                  <div class="expertise__list-level" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="main-experience">
+          <section class="experince">
+            <h3 class="title">WORK EXPERIENCE</h3>
+            <ul class="experience__list">
+              <li class="experience__list-item">
+                <h5 class="experience__list-title">School</h5>
+                <div class="experience__list-subtitle">
+                  <span>2008-2022</span>
+                  <p>Commodi, dolor!</p>
+                </div>
+                <p class="experience__list-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                  itaque quisquam accusantium. Veritatis enim magni voluptatibus
+                  dicta quo?
+                </p>
+              </li>
+              <li class="experience__list-item">
+                <h5 class="experience__list-title">Freelance</h5>
+                <div class="experience__list-subtitle">
+                  <span>2022-now</span>
+                  <p>Commodi, dolor!</p>
+                </div>
+                <p class="experience__list-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                  itaque quisquam accusantium. Veritatis enim magni voluptatibus
+                  dicta quo?
+                </p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <section class="contacts">
+          <ul class="contacts__list">
+            <li class="contacts__list-item">
+              <h5 class="contacts__list-title">Phone</h5>
+              <a href="tel:+79856399679" class="contacts__list-text"
+                >+79856399679</a
+              >
+            </li>
+            <li class="contacts__list-item">
+              <h5 class="contacts__list-title">Email</h5>
+              <a href="mailto:danilova.ann@inbox.ru" class="contacts__list-text"
+                >danilova.ann@inbox.ru</a
+              >
+            </li>
+            <li class="contacts__list-item">
+              <h5 class="contacts__list-title">Instagram</h5>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
